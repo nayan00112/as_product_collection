@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates xml:space="preserve">
+    <t t-name="as_product_collection.product_collection_dialog_template">
+        <Dialog title="props.title">
+            <div>
+                <h2>Product Collections:</h2>
+                <select class="form-select">
+                    <t t-foreach="props.categories" t-as="category" t-key="category.id">
+                        <option t-esc="category.name" t-att-value='category.id'></option>
+                    </t>
+                </select>
+                <t t-set-slot="footer">
+                    <button class="btn btn-primary" t-on-click="()=>selectproductcollection(this)">Save</button>
+                </t>
+            </div>
+        </Dialog>
+    </t>
+</templates>

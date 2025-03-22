@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+
+    <template id="product_collection_template" inherit_id="website.snippets" name="Custom Snippets">
+        <xpath expr="//snippets[@id='snippet_groups']" position="inside">
+            <t t-snippet="as_product_collection.s_categorized_product" string='Categorized Products' t-thumbnail="">
+                <keywords>Snippet</keywords>
+            </t>
+        </xpath>
+    </template>
+
+
+
+    <template id="product_collection_snippet_options" inherit_id="website.snippet_options"
+        name="Custom Snippets template">
+        <xpath expr="." position="inside">
+            <div data-selector=".s_categorized_product" data-js="productsview">
+                <we-select string="Headings">
+                    <we-button data-select-class="">Default</we-button>
+                    <we-button data-select-class="x_custom_class_01">01</we-button>
+                    <we-button data-select-class="x_custom_class_02">02</we-button>
+                </we-select>
+            </div>
+        </xpath>
+    </template>
+</odoo>

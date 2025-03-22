@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="s_categorized_product" name="s_categorized_product">
+        <section class="s_categorized_product">
+            <h3>products will show here ...</h3>
+        </section>
+    </template>
+
+</odoo>

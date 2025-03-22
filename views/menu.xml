@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <menuitem
+        id="as_product_collection_product_collection_menu"
+        name="Product Collection"
+        parent='website_sale.menu_catalog'
+        action="as_product_collection_action"
+        sequence="10" />
+
+</odoo>
