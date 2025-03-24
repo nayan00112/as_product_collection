@@ -2,7 +2,8 @@
 <odoo>
 
     <template id="s_categorized_product" name="s_categorized_product">
-        <section class="s_categorized_product">
+        <section class="s_categorized_product js_sale oe_website_sale">
+        <div class="o_product_feature_panel d-none"></div>
             <h3>products will show here ...</h3>
         </section>
     </template>

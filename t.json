@@ -1,0 +1,46 @@
+{
+    "name": "collection 2",
+    "products": [
+        {
+            "id": 23,
+            "name": "Acoustic Bloc Screens",
+            "list_price": 295,
+            "website_id": false,
+            "product_variant_id": [
+                31,
+                "[FURN_6666] Acoustic Bloc Screens (White)"
+            ]
+        },
+        {
+            "id": 16,
+            "name": "Conference Chair",
+            "list_price": 33,
+            "website_id": false,
+            "product_variant_id": [
+                23,
+                "[E-COM12] Conference Chair (Steel)"
+            ]
+        },
+        {
+            "id": 18,
+            "name": "Corner Desk Left Sit",
+            "list_price": 85,
+            "website_id": false,
+            "product_variant_id": [
+                26,
+                "[FURN_1118] Corner Desk Left Sit"
+            ]
+        },
+        {
+            "id": 24,
+            "name": "Drawer",
+            "list_price": 110.5,
+            "website_id": false,
+            "product_variant_id": [
+                33,
+                "[FURN_8855] Drawer"
+            ]
+        }
+    ],
+    "websiteID": 1
+}

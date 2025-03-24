@@ -25,7 +25,7 @@ export class ProductCollectionDialog extends Component {
         const products = await element.orm.searchRead(
             "product.template",
             [["id", "in", productIds]],
-            ["name", "list_price", "image_1920", 'website_id', 'product_variant_id']
+            ["name", "list_price", 'website_id', 'product_variant_id']
         );
 
         const final_product_collection = {

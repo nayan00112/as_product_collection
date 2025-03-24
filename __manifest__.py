@@ -13,7 +13,7 @@ as_product_collection is module for product collection
     'category': 'Uncategorized',
     'version': '0.1',
 
-    'depends': ['base', 'website_sale'],
+    'depends': ['base', 'website_sale', 'website_sale_wishlist'],
 
     'data': [
         'security/ir.model.access.csv',
